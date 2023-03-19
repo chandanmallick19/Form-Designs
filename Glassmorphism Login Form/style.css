@@ -31,9 +31,9 @@
     text-align: center;
     padding: 60px 32px;
     width: 370px;
-    transform: translate(-50%,50%);
-    background: rgba(255,255,255,0.4);
-    box-shadow: -1px 4px 28px 0 px rgba(0,0,0,0.75);
+    transform: translate(-50%,-50%);
+    background: rgba(255,255,255,0.04);
+    box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
 }
 
 .content header{
@@ -74,7 +74,7 @@
 }
 
 .show{
-    position: aboslute;
+    position: absolute;
     right: 13px;
     font-size: 13px;
     font-weight: 700;
@@ -84,19 +84,13 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.pass-key:valid ~.show{
+.pass-key:valid ~ .show{
     display: block;
 }
 
 .pass{
     text-align: left;
     margin: 10px 0;
-}
-
-.pass a{
-    color: white;
-    text-decoration: none;
-    font-family: 'Poppins', sans-serif;
 }
 
 .pass a{
